@@ -1,0 +1,61 @@
+#Session 16: Assignment 1
+#Question 1 Problem Statement 1:
+A test is conducted which is consisting of 20 MCQs (multiple choices questions) with
+every MCQ having its four options out of which only one is correct. Determine the
+probability that a person undertaking that test has answered exactly 5 questions wrong.
+#Answer
+Here, n = 20, n - r = 5, r = 20 - 5 = 15
+
+the probability of success = P(s) = 1/4
+
+and the probability of failure = p(f) = 1 - s = 1 - 1/4 = 3/4
+
+When we substitute these values in the formula for Binomial distribution we get,
+
+So, P (exactly 5 out of 20 answers incorrect) = C (20, 5) * (1/4)power15 * (3/4)power55
+
+→→ P (5 out of 20) = ((20∗19∗18∗17∗16)/(5∗4∗3∗2∗1)) * (1/4)power15 * (3/4)power55
+
+= 0.0000034 (approximately)
+
+Thus the required probability is 0.0000034 approximately.
+
+#Problem Statement 2:
+#A die marked A to E is rolled 50 times. Find the probability of getting a “D” exactly 5 times.
+
+#Answer.
+Here, n = 50, r = 5, n - r = 4/5.
+
+
+The probability of success = probability of getting a “D”= s = 1/5
+
+Hence, the probability of failure = probability of not getting a “D” = 1 - s = 4/5.
+
+
+#Problem Statement 3:
+
+#Two balls are drawn at random in succession without replacement from an urn
+#containing 4 red balls and 6 black balls.
+#Find the probabilities of all the possible outcomes
+
+Answer.
+
+First determine the probabilities of the events.
+
+  events           Probability
+    RR          (4/10)(3/9) = 2/15
+    RB          (4/10)(6/9) = 4/15
+    BR          (6/10)(4/9) = 4/15 
+    BB          (6/10)(5/9) = 1/3
+
+The probability of 0 blue balls (RR)is 2/15
+The probability of 1 blue ball is (RB or BR) is 4/15+4/15 = 8/15
+The probability of 2 blue balls (BB) is 1/3
+
+So the probability distribution is:
+
+Z   p(Z)
+--------   
+0   2/15
+1   8/15
+2   1/3
